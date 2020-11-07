@@ -1,5 +1,4 @@
 # Find the nose!
-## Praca w toku...
 ## KN Solvro zadanie rekrutacyjnie z kategorii ML 
 * Plik **sprawozadnie.pdf** to krótki przegląd zbierania i obróbki danych, wyboru modelu i treningu. 
 * Notatnik **test.ipynb** wczytuje już wytrenowany model i sprawdza jak sieć radzi sobie na kilku przykładowych zdjęciach. 
