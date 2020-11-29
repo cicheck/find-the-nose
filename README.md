@@ -29,7 +29,7 @@ Both models were trained on modified [FK dataset](https://www.kaggle.com/tarunkr
 
 ## Usage
 
-1. Make sure your environment meets requirements listed in [requirements.txt](requirements.txt). (pip install -r requirements.txt)
+1. Make sure your environment meets requirements listed in [requirements.txt](requirements.txt). (**pip install -r requirements.txt**)
 2. To test the model on your own pictures save them under [pictures](pictures/) directory and change file_name in [test.ipynb](notebooks/test.ipynb).
 3. You can use pre-trained Cascade model as in notebook [test.ipynb](notebooks/test.ipynb).
 4. To repeat training download [FK dataset](https://www.kaggle.com/tarunkr/facial-keypoints-68-dataset) and save it as "Facial Keypoints" under [data](data/) directory. Then run notebook [data.ipynb](notebooks/data.ipynb) to build dataset. After that you can run [model.ipynb](notebooks/model.ipynb) to train and evaluate models. 
