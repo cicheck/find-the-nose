@@ -13,7 +13,7 @@
 The goal of this project is to train a neural network responsible for finding the tip of the nose person displayed in the picture. During the process the two architectures were tested:
 1. Cascade model with architecture following [paper](http://mmlab.ie.cuhk.edu.hk/archive/CNN_FacePoint.htm).
 2. Small model that uses pre-trained ResNet as a backbone.
-Both models were trained on modified [FK dataset](https://www.kaggle.com/tarunkr/facial-keypoints-68-dataset). (To the original dataset, there were added, shifted and zoomed simultaneously copies of original pictures. Models trained on extended that way dataset performed significantly better on real world data.) 
+Both models were trained on modified [FK dataset](https://www.kaggle.com/tarunkr/facial-keypoints-68-dataset). (To the original dataset, there were added, cropped copies of original pictures. Models trained on extended that way dataset performed significantly better on real world data.) 
 
 ## Structure
 * [notebooks](notebooks/) cotains three notebooks:
@@ -46,7 +46,7 @@ Both models were trained on modified [FK dataset](https://www.kaggle.com/tarunkr
 
 ### Augumentation
 
-#### Shift + zoom
+#### Cropping
 
 ![Alt text](readme_pictures/aug1.png?raw=true)
 
