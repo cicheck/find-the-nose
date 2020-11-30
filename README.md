@@ -1,5 +1,4 @@
 # Find the nose!
-## Work in progress
 
 ## Table of contents
 
