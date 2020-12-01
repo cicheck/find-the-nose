@@ -20,7 +20,6 @@ Both models were trained on modified [FK dataset](https://www.kaggle.com/tarunkr
   * [test.ipynb](notebooks/test.ipynb) -> load pre-trained Cascade model and test it on a few pictures
   * [model.ipynb](notebooks/model.ipynb) -> build, train and compare both models
   * [data.ipynb](notebooks/data.ipynb) -> load and build dataset
-* [models](models/) contains classes representing both networks
 * [saved models](saved_models/) contains saved pre-trained Cascade model
 * [data](data/) contains small sample of preprocessed dataset
 * [utility](utility/) contains utilility functions
