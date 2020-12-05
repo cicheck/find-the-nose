@@ -21,8 +21,9 @@ Both models were trained on modified [FK dataset](https://www.kaggle.com/tarunkr
   * [model.ipynb](notebooks/model.ipynb) -> build, train and compare both models
   * [data.ipynb](notebooks/data.ipynb) -> load and build dataset
 * [saved models](saved_models/) contains saved pre-trained Cascade model
+* [models](models/) contains functions used to build models
 * [data](data/) contains small sample of preprocessed dataset
-* [utility](utility/) contains utilility functions
+* [utills](utills/) contains utilility functions
 * [sprawozdanie.pdf](sprawozdanie.pdf) contains short, written in polish, report describing preprocessing, augmentation technics and used models
 
 ## Usage
